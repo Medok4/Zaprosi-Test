@@ -1,0 +1,17 @@
+.Section2{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.The_only_content_is_for_sure{
+    font-family: 'EfB';
+    font-size: 64px;
+    font-weight: 900;
+}
+
+.The_only_content_is_for_sure>span{
+    color: #ADADAD;
+}

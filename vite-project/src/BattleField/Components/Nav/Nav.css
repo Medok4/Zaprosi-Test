@@ -1,0 +1,68 @@
+nav{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Nav_25{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7%;
+}
+
+.Nav_25>img{
+    width: 47%;
+    height: 55%;
+    margin-right: 8%;
+    cursor: pointer;
+}
+
+.Nav_50{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7%;
+}
+
+.Nav_50>a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Ef';
+    font-size: 18px;
+}
+
+.Nav_But1{
+    width: 20%;
+    height: 30%;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.Nav_But1>p{
+    font-family: 'Ef';
+    font-size: 18px;
+    color: white;
+}
+
+.Nav_But2{
+    width: 35%;
+    height: 6vh;
+    cursor: pointer;
+    border-style: none;
+    border-radius: 50px;
+    background-color: white;
+}
+
+.Nav_But2>p{
+    font-family: 'Ef';
+    font-size: 18px;
+    color: black;
+}

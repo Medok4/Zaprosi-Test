@@ -1,0 +1,143 @@
+.Section5{
+    width: 100%;
+    height: 135vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+}
+
+.Sec5_Title{
+    color: white;
+    font-family: 'EfB';
+    font-size: 64px;
+}
+
+.Sec5_MoY{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1%;
+}
+
+.Sec5_MoY>p{
+    font-family: 'InM';
+    font-size: 24px;
+}
+
+.MoY1{
+    color: white;
+    margin-left: 4%;
+    transition: all ease 0.3s;
+}
+
+.MoY2{
+    color: gray;
+    transition: all ease 0.3s;
+}
+
+.Sec5_Switch{
+    width: 5%;
+    height: 5vh;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.Sec5_Circle{
+    background-color: #A8FF35;
+    width: 35%;
+    height: 70%;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-left: 10%;
+    transition: all ease 0.3s;
+}
+
+.Sec5_Tarif{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+}
+
+.Sec5_Offer{
+    width: 25%;
+    height: 100%;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+    transition: all ease 0.3s;
+}
+
+.Offer_Title{
+    font-family: 'EfM';
+    font-size: 36px;
+    margin-left: 6%;
+    margin-top: 6%;
+}
+
+.Offer_Desc{
+    font-family: 'Ef';
+    font-size: 18px;
+    margin-left: 6%;
+}
+
+.Offer_Price{
+    font-family: 'EfM';
+    font-size: 64px;
+    margin-left: 6%;
+}
+
+.Offer_Price>span{
+    font-family: 'Ef';
+    font-size: 18px;
+}
+
+.Sec5_Offer>ul>li{
+    font-family: 'Ef';
+    font-size: 18px;
+    margin-top: 5%;
+    margin-left: 13%;
+}
+
+.Sec5_Offer>ul{
+    list-style-image: url(../../../assets/Offer/Check.png);
+}
+
+.Offer_GL{
+    width: 88%;
+    height: 0.3vh;
+    background-color: gray;
+    opacity: 0.5;
+    margin-left: 6%;
+}
+
+.Offer_Button{
+    width: 20%;
+    height: 7vh;
+    border-radius: 50px;
+    border: none;
+    background-color: #A8FF35;
+    position: absolute;
+    margin-left: 2.5%;
+    margin-top: 35%;
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+
+.loh{
+    font-family: 'EfB';
+    font-size: 18px;
+    color: black;
+    transition: all ease 0.3s;
+}

@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Ef';
+    src: url(../assets/fonts/Effra.ttf);
+}
+
+@font-face {
+    font-family: 'EfB';
+    src: url(../assets/fonts/Effra-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'EfH';
+    src: url(../assets/fonts/Effra-Heavy.ttf);
+}
+
+@font-face {
+    font-family: 'EfM';
+    src: url(../assets/fonts/Effra-Medium.ttf);
+}
+
+@font-face {
+    font-family: "InM";
+    src: url(../assets/fonts/Inter_18pt-Medium.ttf);
+}

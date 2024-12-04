@@ -1,0 +1,35 @@
+.Section6{
+    width: 100%;
+    height: 70vh;
+    background-color: #A8FF35;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+
+.Sec6_Title{
+    color: black;
+    font-family: 'EfH';
+    font-size: 72px;
+    text-align: center;
+}
+
+.Sec6_Title>span{
+    opacity: 0.3;
+}
+
+.Section6>button{
+    background-color: black;
+    width: 13%;
+    height: 7vh;
+    border: none;
+    border-radius: 50px;
+}
+
+.Section6>button>p{
+    color: white;
+    font-family: 'EfB';
+    font-size: 18px;
+}

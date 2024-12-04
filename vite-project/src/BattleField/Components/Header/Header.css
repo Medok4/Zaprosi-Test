@@ -1,0 +1,58 @@
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../../assets/BattleField/BG.png);
+    background-size: cover;
+}
+
+.Header_WorkSpace{
+    width: 100%;
+    height: 90vh;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+.Header_Title{
+    color: white;
+    font-family: 'EfH';
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.Header_SubTitle{
+    color: gray;
+    font-family: 'Ef';
+    text-align: center;
+    font-size: 18px;
+}
+
+.Header_But_n_Text{
+    width: 100%;
+    height: 10vh;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1%;
+}
+
+.Header_But{
+    width: 12%;
+    height: 8vh;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: #A8FF35;
+    margin-left: 8%;
+}
+
+.Header_But>p{
+    font-size: 18px;
+    font-family: 'EfB';
+    font-weight: 900;
+}
